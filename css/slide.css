@@ -22,6 +22,115 @@
 }
 
 
+
+/* homepage */
+.grid-home {
+    grid-template-rows: 20% 7% 12% 39% 5% 5% 12%;
+    grid-template-columns: 15% 85%;
+}
+
+.home1 {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 7;
+    background-image: url("../images/blueBG.png");
+    background-size: 100% auto;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+.home2 {
+    grid-column: 1;
+    grid-row: 1 / span 7;
+    background-color: #2B3991;
+    background-image: url("../images/bulatbulat.png");
+    background-size: 100% auto;
+    background-position: top center;
+    background-repeat: no-repeat;
+
+    .year {
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+        color: rgb(255, 255, 255);
+        font-family: 'League Gothic', Arial, sans-serif;
+        font-weight: bolder;
+        font-size: 6vh;
+        text-align: center;
+    }
+}
+
+.home3 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.home4 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.home5 {
+    grid-column: 2;
+    grid-row: 3;
+    align-items: center;
+    justify-content: center;
+
+    .motto {
+        font-weight: bold;
+        font-size: 2.2vh;
+        font-family: 'League Gothic', sans-serif, Arial;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+}
+
+.home6 {
+    grid-column: 2;
+    grid-row: 4;
+    opacity: 0.4;
+}
+
+.home7 {
+    grid-column: 2;
+    grid-row: 5;
+
+    .contact-text {
+        background-color: #ffffff;
+        padding: 0 5%;
+        margin-left: -2%;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+}
+
+.home8 {
+    grid-column: 2;
+    grid-row: 6;
+
+    .contact-text {
+        background-color: #ffffff;
+        padding: 0 5%;
+        margin-left: -2%;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+}
+
+.home9 {
+    grid-column: 2;
+    grid-row: 7;
+}
+
+.home2,
+.home3,
+.home4,
+.home6,
+.home7,
+.home8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 /* Easb */
 /* easb main */
 .grid-easb-main {
