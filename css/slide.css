@@ -32,10 +32,8 @@
 .home1 {
     grid-column: 1 / span 2;
     grid-row: 1 / span 7;
-    background-image: url("../images/blueBG.png");
-    background-size: 100% auto;
-    background-position: bottom center;
-    background-repeat: no-repeat;
+    background: linear-gradient(to top, #297fb995, white);
+    
 }
 
 .home2 {
@@ -214,15 +212,18 @@
 .easbprof4,
 .easbprof6 {
     margin: 0 2%;
-    border: 2px solid #99cddc;
-    background-color: #d8f2ff70;
+    border: 2px solid #dc9999;
+    background-color: #fd1515;
+    border-radius: 10px 10px 0 0;
+    
 }
 
 .easbprof5,
 .easbprof7 {
-    border: 2px solid #99cddc;
+    border: 2px solid #dc9999;
     margin: 0 2%;
     padding: 0 2%;
+    border-radius: 0 0 10px 10px;
 }
 
 .easbprof8 {
@@ -232,11 +233,12 @@
 .easbprof9,
 .easbprof10,
 .easbprof11 {
-    background-color: whitesmoke;
+    background-color: #fd1515;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
     margin-top: 1%;
     margin-left: 20%;
     margin-right: 20%;
+    border-radius: 10px;
 }
 
 .easbprof2,
@@ -266,14 +268,15 @@
 
     .easbimage {
         max-width: 100%;
-        border: 2px solid #99cddc;
+        border: 2px solid #dc9999;
         ;
     }
 }
 
 .easbproduct3 {
+    background-color: #fd1515;
     justify-content: center;
-    border: 1px solid #ddd;
+    border: 1px solid #dddddd;
     /* Add a subtle border */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     /* Add a subtle box shadow */
@@ -297,13 +300,14 @@
 
     .easbimage {
         max-width: 100%;
-        border: 2px solid #99cddc;
+        border: 2px solid #dc9999;
     }
 }
 
 
 .easbproduct7 {
     justify-content: center;
+    background-color: #fd1515;
     border: 1px solid #ddd;
     /* Add a subtle border */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -345,7 +349,7 @@
 
 .easbserv2,
 .easbserv5 {
-    background-color: #d8f2ff;
+    background-color: #fd1515;
 }
 
 /* easb service 2*/
@@ -380,7 +384,7 @@
 
 .easbserv8,
 .easbserv11 {
-    background-color: #d8f2ff;
+    background-color: #fd1515;
 }
 
 /* easc service */
