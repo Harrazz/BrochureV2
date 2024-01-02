@@ -39,7 +39,7 @@
 
 
 
-/* homepage */
+/* homepage #297fb995*/
 .grid-home {
     grid-template-rows: 20% 7% 12% 39% 5% 5% 12%;
     grid-template-columns: 15% 85%;
@@ -48,7 +48,7 @@
 .home1 {
     grid-column: 1 / span 2;
     grid-row: 1 / span 7;
-    background: linear-gradient(to top, #297fb995, white);
+    background: linear-gradient(to top, rgba(19, 66, 220, 0.5), rgb(0, 0, 0, 0));
 
 }
 
