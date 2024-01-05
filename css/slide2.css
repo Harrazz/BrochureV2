@@ -155,9 +155,9 @@
     grid-column: 1 / span 2;
 }
 
-.inovprof2 {
+/* .inovprof2 {
     margin-top: 2%;
-}
+} */
 
 .inovprof3 {
     display: flex;
@@ -204,9 +204,9 @@
     border-radius: 0 0 10px 10px;
 }
 
-.inovprof8 {
+/* .inovprof8 {
     margin-top: 3%;
-}
+} */
 
 .inovprof9,
 .inovprof10,
@@ -214,7 +214,7 @@
     color: white;
     background-color: #6D0F28;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
-    margin-top: 1%;
+    margin-top: 1vh;
     margin-left: 20%;
     margin-right: 20%;
     border-radius: 10px;
