@@ -407,11 +407,12 @@
 
     .icon {
         max-width: 20%;
+        max-height: 50%;
         padding: 2%;
         margin: 0;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         border-radius: 20%;
-        background-color: #ffffff;
+        background-color: #fd1515;
     }
 }
 
@@ -668,7 +669,7 @@
     grid-column: 1;
     grid-row: 1 / span 3;
     background-image: url("../images/tender-background.jpg");
-    background-size: 100% auto;
+    background-size: 80% auto;
     background-position: bottom center;
     background-repeat: no-repeat;
 }
