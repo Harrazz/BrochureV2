@@ -7,6 +7,13 @@
     word-spacing: 0.3rem;
 }
 
+
+/* about us */
+.grid-welcome {
+    grid-template-rows: 8% 3% 5% 32% 40% 12%;
+}
+
+
 /* Activity page starts */
 .grid-act {
     grid-template-rows: 8% 20% 2% 25% 5% 25%;
