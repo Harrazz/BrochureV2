@@ -1,13 +1,3 @@
-section.page {
-    max-width: 1024px;
-    margin: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    overflow: auto;
-}
-
 .main-head {
     margin: 0 20px;
     font-weight: bolder;
@@ -431,6 +421,25 @@ section.page {
 
 
 /* agenda */
+p.conference {
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+p.date {
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+    padding-left: 3%;
+    margin: auto;
+    font-weight: bolder;
+}
+
 p.time {
     padding: 3%;
     font-size: 1.5vh;
@@ -451,7 +460,7 @@ p.time {
 
 p.session {
     padding: 3%;
-    font-size: 1.5vh;
+    font-size: 1.6vh;
     font-weight: bolder;
     display: flex;
     align-items: center;
@@ -461,14 +470,17 @@ p.session {
 
 .speakername {
     color: #1f4e77;
+    font-weight: bolder;
 }
 
 .position {
-    color: #5ec9cc;
+    color: #0b0072;
+    font-weight: bold;
 }
 
 .agency {
     color: #1d99f4;
+    font-weight: bolder;
 }
 
 .grid-agenda1 {
@@ -606,9 +618,9 @@ p.session {
 }
 
 .grid-agenda3 {
-    grid-template-rows: 8% 8% 8% 8% 8% 8% 8% 8% 8% 8% 8%;
+    grid-template-rows: 5% 8% 8% 8% 8% 8% 8% 8% 8% 8% 8%;
     grid-template-columns: 40% 60%;
-    padding-top: 2%;
+    padding-top: 7%;
 
     .agenda1 {
         grid-column: 1 / span 2;
