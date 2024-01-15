@@ -432,9 +432,9 @@ p.conference {
 }
 
 p.date {
-    display: flex;
-    align-items: end;
-    justify-content: flex-start;
+    position: absolute;
+    bottom: 0;
+    left: 0;
     padding-left: 3%;
     margin: auto;
     font-weight: bolder;
@@ -487,64 +487,61 @@ p.session {
     grid-template-rows: 11% 8% 5% 8% 8% 8% 8% 8% 8% 8% 8%;
     grid-template-columns: 40% 60%;
 
+    .agenda3 {
+        position: relative;
+    }
+
     .agenda1,
     .agenda2,
     .agenda3 {
         grid-column: 1 / span 2;
     }
 
-    .agenda5 {
-        grid-column: 2;
-        grid-row: 4;
-    }
-
-    .agenda10,
-    .agenda13,
-    .agenda16 {
+    .agenda6,
+    .agenda12,
+    .agenda15 {
         grid-column: 2;
     }
 
-    .agenda8 {
-        grid-row: 6 / span 2;
+    .agenda4 {
+        grid-row: 4 / span 3;
     }
 
-    .agenda11 {
+    .agenda10 {
         grid-row: 8 / span 2;
     }
 
-    .agenda14 {
+    .agenda13 {
         grid-row: 10 / span 2;
     }
 
     .agenda4,
     .agenda5,
-    .agenda8,
-    .agenda9,
+    .agenda6,
+    .agenda7,
     .agenda10,
-    .agenda14,
-    .agenda15,
-    .agenda16 {
+    .agenda11,
+    .agenda12 {
         background-color: rgba(0, 74, 173, 0.1);
     }
 
     .agenda4,
-    .agenda6,
     .agenda8,
-    .agenda11,
-    .agenda14 {
+    .agenda10,
+    .agenda13 {
         margin-left: 3%;
         text-align: justify;
     }
 
     .agenda5,
+    .agenda6,
     .agenda7,
     .agenda9,
-    .agenda10,
+    .agenda11,
     .agenda12,
-    .agenda13,
-    .agenda15,
-    .agenda16 {
-        margin-right: 3%;
+    .agenda14,
+    .agenda15 {
+        margin-right: 2%;
         text-align: justify;
     }
 }
@@ -555,134 +552,140 @@ p.session {
     padding-top: 2%;
 
     .agenda2,
-    .agenda5,
+    .agenda3,
     .agenda8,
-    .agenda13,
-    .agenda16,
-    .agenda17 {
+    .agenda11,
+    .agenda16 {
         grid-column: 2;
     }
 
-    .agenda3 {
-        grid-row: 2 / span 2;
+    .agenda1 {
+        grid-row: 1 / span 2;
     }
 
     .agenda6 {
         grid-row: 4 / span 2;
     }
 
-    .agenda11 {
-        grid-row: 7 / span 2;
+    .agenda9 {
+        grid-row: 6 / span 2;
     }
 
     .agenda14 {
-        grid-row: 9 / span 3;
+        grid-row: 9 / span 2;
     }
 
     .agenda1,
     .agenda2,
+    .agenda3,
     .agenda6,
     .agenda7,
     .agenda8,
-    .agenda11,
     .agenda12,
     .agenda13 {
         background-color: rgba(0, 74, 173, 0.1);
     }
 
     .agenda1,
-    .agenda3,
+    .agenda4,
     .agenda6,
     .agenda9,
-    .agenda11,
+    .agenda12,
     .agenda14 {
         margin-left: 3%;
         text-align: justify;
     }
 
     .agenda2,
-    .agenda4,
+    .agenda3,
     .agenda5,
     .agenda7,
     .agenda8,
-    .agenda8,
     .agenda10,
-    .agenda12,
+    .agenda11,
     .agenda13,
     .agenda15,
-    .agenda16,
-    .agenda17 {
-        margin-right: 3%;
+    .agenda16 {
+        margin-right: 2%;
         text-align: justify;
     }
 }
 
 .grid-agenda3 {
-    grid-template-rows: 5% 8% 8% 8% 8% 8% 8% 8% 8% 8% 8%;
+    grid-template-rows: 8% 8% 8% 8% 8% 8% 8% 8% 8% 8% 8%;
     grid-template-columns: 40% 60%;
-    padding-top: 7%;
-
-    .agenda1 {
-        grid-column: 1 / span 2;
-    }
-
-    .agenda2 {
-        grid-row: 2 / span 2;
-    }
+    padding-top: 2%;
 
     .agenda5 {
-        grid-row: 4 / span 2;
-    }
-
-    .agenda8 {
-        grid-row: 6 / span 2;
-    }
-
-    .agenda13 {
-        grid-row: 9 / span 3;
-    }
-
-    .agenda4,
-    .agenda7,
-    .agenda10,
-    .agenda15,
-    .agenda16 {
-        grid-column: 2;
+        position: relative;
     }
 
     .agenda2,
-    .agenda5,
+    .agenda3,
+    .agenda4,
     .agenda8,
     .agenda11,
-    .agenda13 {
+    .agenda14 {
+        grid-column: 2;
+    }
+
+    .agenda6 {
+        grid-column: 1;
+    }
+
+    .agenda5 {
+        grid-column: 1 / span 2;
+    }
+
+    .agenda1 {
+        grid-row: 1 / span 3;
+    }
+
+    .agenda6 {
+        grid-row: 5 / span 2;
+    }
+
+    .agenda9 {
+        grid-row: 7 / span 2;
+    }
+
+    .agenda12 {
+        grid-row: 9 / span 2;
+    }
+
+    .agenda1,
+    .agenda6,
+    .agenda9,
+    .agenda12,
+    .agenda15 {
         margin-left: 3%;
         text-align: justify;
     }
 
+    .agenda2,
+    .agenda3,
+    .agenda4,
+    .agenda7,
+    .agenda8,
+    .agenda10,
+    .agenda11,
+    .agenda13,
+    .agenda14,
+    .agenda16 {
+        margin-right: 2%;
+        text-align: justify;
+    }
+
+    .agenda1,
+    .agenda2,
     .agenda3,
     .agenda4,
     .agenda6,
     .agenda7,
-    .agenda9,
-    .agenda10,
-    .agenda12,
-    .agenda14,
-    .agenda15,
-    .agenda16 {
-        margin-right: 3%;
-        text-align: justify;
-    }
-
-    .agenda2,
-    .agenda3,
-    .agenda4,
     .agenda8,
-    .agenda9,
-    .agenda10,
+    .agenda12,
     .agenda13,
-    .agenda14,
-    .agenda15,
-    .agenda16 {
+    .agenda14 {
         background-color: rgba(0, 74, 173, 0.1);
     }
 }
@@ -692,76 +695,80 @@ p.session {
     grid-template-columns: 40% 60%;
     padding-top: 2%;
 
-    .agenda1 {
-        grid-row: 1 / span 2;
-    }
-
-    .agenda4 {
-        grid-row: 3 / span 3;
-    }
-
-    .agenda10 {
-        grid-row: 7 / span 2;
-    }
-
-    .agenda13 {
-        grid-row: 9 / span 2;
-    }
-
     .agenda2,
     .agenda3,
-    .agenda5,
-    .agenda6,
+    .agenda4,
     .agenda7,
-    .agenda12,
-    .agenda15 {
+    .agenda10,
+    .agenda11,
+    .agenda16 {
         grid-column: 2;
     }
 
+    .agenda1 {
+        grid-row: 1 / span 3;
+    }
+
+    .agenda5 {
+        grid-row: 4 / span 2;
+    }
+
+    .agenda8 {
+        grid-row: 6 / span 3;
+    }
+
+    .agenda14 {
+        grid-row: 10 / span 2;
+    }
+
     .agenda1,
-    .agenda4,
+    .agenda5,
     .agenda8,
-    .agenda10,
-    .agenda13,
-    .agenda16 {
+    .agenda12,
+    .agenda14 {
         margin-left: 3%;
         text-align: justify;
     }
 
     .agenda2,
     .agenda3,
-    .agenda5,
+    .agenda4,
     .agenda6,
     .agenda7,
     .agenda9,
+    .agenda10,
     .agenda11,
-    .agenda12,
-    .agenda14,
+    .agenda13,
     .agenda15,
-    .agenda17 {
-        margin-right: 3%;
+    .agenda16 {
+        margin-right: 2%;
         text-align: justify;
     }
 
     .agenda1,
     .agenda2,
     .agenda3,
+    .agenda4,
     .agenda8,
     .agenda9,
-    .agenda13,
+    .agenda10,
+    .agenda11,
     .agenda14,
-    .agenda15 {
+    .agenda15,
+    .agenda16 {
         background-color: rgba(0, 74, 173, 0.1);
     }
 }
 
 .grid-agenda5 {
-    grid-template-rows: 8% 8% 8% 8%;
+    grid-template-rows: 8% 8% 8% 8% 8% 8% 8%;
     grid-template-columns: 40% 60%;
     padding-top: 2%;
 
+    .agenda2,
     .agenda3,
-    .agenda6 {
+    .agenda8,
+    .agenda11 {
         grid-column: 2;
     }
 
@@ -769,18 +776,27 @@ p.session {
         grid-row: 1 / span 2;
     }
 
-    .agenda4 {
-        grid-row: 3 / span 2;
+    .agenda6 {
+        grid-row: 4 / span 2;
+    }
+
+    .agenda9 {
+        grid-row: 6 / span 2;
     }
 
     .agenda1,
     .agenda2,
-    .agenda3 {
+    .agenda3,
+    .agenda6,
+    .agenda7,
+    .agenda8 {
         background-color: rgba(0, 74, 173, 0.1);
     }
 
     .agenda1,
-    .agenda4 {
+    .agenda4,
+    .agenda6,
+    .agenda9 {
         margin-left: 3%;
         text-align: justify;
     }
@@ -788,8 +804,11 @@ p.session {
     .agenda2,
     .agenda3,
     .agenda5,
-    .agenda6 {
-        margin-right: 3%;
+    .agenda7,
+    .agenda8,
+    .agenda10,
+    .agenda11 {
+        margin-right: 2%;
         text-align: justify;
     }
 }
