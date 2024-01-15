@@ -433,6 +433,7 @@ p.conference {
 }
 
 p.date {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -443,6 +444,7 @@ p.date {
 }
 
 p.time {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 3%;
     font-size: 1.5vh;
     font-weight: bolder;
@@ -462,13 +464,16 @@ p.time {
 }
 
 p.session {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 3%;
     font-size: 1.6vh;
     font-weight: bolder;
+    word-spacing: 0.1em;
     color: #2B3991;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    text-align: start;
     margin: 0;
 }
 
