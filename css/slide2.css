@@ -8,6 +8,7 @@
 }
 
 .welcome5 {
+    z-index: -1;
     align-items: end;
     display: flex;
     justify-content: end;
