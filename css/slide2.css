@@ -525,7 +525,7 @@
     .contact-text {
         text-align: left;
         margin: 0 2%;
-        font-size: 2.5vh;
+        font-size: 2vh;
         box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
         background-color: #ffffff;
         padding: 0 5%;
@@ -591,14 +591,14 @@ p.time {
 p.session {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 3%;
-    font-size: 1.6vh;
+    font-size: 1.4vh;
     font-weight: bolder;
     word-spacing: 0.1em;
     color: #2B3991;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    text-align: start;
+    text-align: justify;
     margin: 0;
 }
 
